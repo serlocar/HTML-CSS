@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    text-align: center;
+}
+img{
+    margin-left: 250px;
+}
+#p1{
+    border: 2px solid black;
+    padding: 100px;
+}
+#p2{
+    border: 1px solid green;
+    padding: 50px;
+    margin-left: 50px;
+}
