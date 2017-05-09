@@ -1,16 +1,29 @@
-h1{
-    color: red;
-    text-align: center;
+body{
+    background-color: gray;
+    padding: 50px;
 }
-img{
-    margin-left: 250px;
+h1{
+    color: black;
+    text-align: center;
+    font-size: 3.5em;
 }
 #p1{
+    width: 1200px;
+    margin: 0 auto;
     border: 2px solid black;
     padding: 100px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 5px black;
 }
 #p2{
-    border: 1px solid green;
+    width: 600px;
+    border: 3px solid green;
     padding: 50px;
     margin-left: 50px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 5px black;
+}
+footer{
+    margin: 20px;
+    padding: 35px;
 }
