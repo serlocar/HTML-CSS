@@ -1,8 +1,23 @@
-*{
-    box-sizing: border-box;
-}
-footer{
-    background-image: url(../images/social.png);
-    width: 500px;
-    height: 250px;
-}
+  * {box-sizing: border-box;}
+  
+  footer{position: fixed;
+    bottom: 0px;
+    width: 40%;
+    height: 80px;
+    border: 2px solid black     
+   }
+  div{
+    width:50px;
+    height:50px;
+    float: left;
+    border: 2px solid black
+   }
+    #Play{
+    background: url(../images/social.png) 50px 100px;
+    }
+    #ping{
+    background: url(../images/social.png) 100px 100px;
+    }
+    #{
+    background: url(../images/social.png) 200px 200px;
+    }
