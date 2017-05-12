@@ -53,4 +53,6 @@ li:hover{
     background-color: black;
     border: 2px solid white;
 }
-
+a:active{
+    color:red;
+}
