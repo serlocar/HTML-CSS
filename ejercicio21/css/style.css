@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    margin-top: 10px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px black;
+}
+h1{
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 0.05em 0.05em black;
+    padding: 10px;
+} 
+h3{
+    color: white;
+    text-shadow: 0.05em 0.05em black;
+    padding: 10px;
+    font-size: 1.5em;
+}
+iframe{
+    margin: 100px;
+}
