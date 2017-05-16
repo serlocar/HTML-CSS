@@ -2,14 +2,12 @@
     box-sizing: border-box;
 }
 body{
-    background: url(../images/bandera.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    background: url(../images/fondo.jpg);
     background-color: black;
     position: relative;
     width: 90%;
     margin: 0 auto;
+    
 }
 h1{
     text-align: center;
@@ -27,24 +25,40 @@ h4{
     font-family: 'Gravitas One', cursive;
     margin-bottom: 60px;
 }
+header{
+    margin-bottom: 70px;
+    border-bottom: 2px solid white;
+}
 figure{
     float: left;
 }
 figure img{
     width: 100%;
-    border: 2px solid red;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px red;
+}
+P:first-letter{
+    font-size: 2em;
 }
 p{
     font-size: 1.2em;
-    padding: 20px;
+    padding: 15px;
     line-height: 33px;
     color: white;
     font-family: 'Alegreya', serif;
 }
-ul{
+.lista{
     list-style-position: inside;
     color: white;
+    font-size: 0.8em;
     font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 300px;
+    right: 280px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
 }
 li{
     text-decoration: none;
@@ -70,8 +84,22 @@ li{
     right: 10px;
     z-index: 5;
 }
+.icono2{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 5;
+}
 .icono img{
     width: 100%;
+    box-shadow: none;
+    border: none;
+}
+.icono2 img{
+    width: 100%;
+    box-shadow: none;
     border: none;
 }
 span{
@@ -79,6 +107,9 @@ span{
 }
 li:nth-of-type(2n+1) {
     color: red;
+}
+.img2{
+    margin-bottom: 50px;
 }
 footer{
     color: white;
@@ -101,6 +132,7 @@ nav{
     background-color: black;
     box-shadow: 1px 5px 10px red;
     z-index: 6;
+    font-family: 'Courgette', cursive;
 }
 nav ul li{
     float: left;
