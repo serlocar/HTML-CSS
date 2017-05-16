@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 body{
+    background: url(../images/bandera.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
     background-color: black;
     position: relative;
     width: 90%;
@@ -12,8 +16,16 @@ h1{
     font-size: 4.5em;
     color: white;
     text-shadow: 0.05em 0.05em red;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+    margin-top: 100px;
     font-family: 'Gravitas One', cursive;
+}
+h4{
+    text-align: center;
+    color: white;
+    text-shadow: 0.05em 0.05em red;
+    font-family: 'Gravitas One', cursive;
+    margin-bottom: 60px;
 }
 figure{
     float: left;
@@ -56,6 +68,7 @@ li{
     position: absolute;
     top: 0px;
     right: 10px;
+    z-index: 5;
 }
 .icono img{
     width: 100%;
@@ -74,4 +87,32 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+}
+footer a:hover{
+    color: red;
+}
+nav{
+    overflow: auto;
+    border: 2px solid white;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: black;
+    box-shadow: 1px 5px 10px red;
+    z-index: 6;
+}
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
 }
