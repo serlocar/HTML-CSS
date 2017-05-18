@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+form{
+    overflow: auto;
+}
+ados{
+    overflow: auto;
+}
+.dos{
+    float: left;
+    width: 50%;
+}
+article{
+    padding: 10px;
+}
+.cien{
+    width: 100%;
+}
+input{
+    padding: 5px;
+}
+.tres{
+    width: 28%;
+}
+.aficiones{
+    overflow: auto;
+}
+.aficion{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+.radio{
+    padding: 5px;
+}
