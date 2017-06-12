@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+        .img-thumbnail {
+            border: 2px solid black;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,6 +42,50 @@
         </div>
         <!--Cierre del row-->
 
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <tr class="text-info">
+                    <th scope="colgroup rowgroup" colspan="2" rowspan="2">Resultados de la encuesta</td>
+                        <th scope="colgroup" colspan="3">Edad</td>
+                </tr>
+                <tr>
+                    <th scope="col">12 a 25</td>
+                        <th scope="col">26 a 40</td>
+                            <th scope="col">Más de 40</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">¿Cual es tu destino preferido para las vacaciones?</td>
+                        <th scope="row">Disney-Paris (Francia)</td>
+                            <td>50%</td>
+                            <td>25%</td>
+                            <td>25%</td>
+                </tr>
+                <tr>
+                    <th scope="row">El Caribe</td>
+                        <td>25%</td>
+                        <td>50%</td>
+                        <td>25%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Europa</td>
+                        <td>25%</td>
+                        <td>25%</td>
+                        <td>50%</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="row">
+            <figure class="col-md-4">
+                <img class="img-thumbnail img-responsive" src="images/img4.jpg" alt="">
+            </figure>
+            <figure class="col-md-4">
+                <img class="img-circle img-responsive" src="images/img4.jpg" alt="">
+            </figure>
+            <figure class="col-md-4">
+                <img class="img-rounded img-responsive" src="images/img4.jpg" alt="">
+            </figure>
+        </div>
     </div>
 
 </body>
